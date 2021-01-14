@@ -1,4 +1,5 @@
 # babelproject
 
 # To ouput the result into a file
-npx babel index.js --out-file index_es5.js
+npm run babel // compiles the js to es5
+npm run build // runs the server
