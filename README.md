@@ -16,3 +16,8 @@ On Babel 7 release, all the packages needs to be installed with `@babel/` prefix
 
 ### .babelrc:
 `"presets": [ "@babel/env" ]`
+
+## Notes
+
+For some ES6 features like, Promises the code cannot be transpiled to ES5 in such cases we need to use polyfills to work on old browsers.
+
